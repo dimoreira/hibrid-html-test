@@ -1,0 +1,10 @@
+{
+  "name": "hibrid-html-test",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "^4.1.2",
+    "body-parser": "^1.0.2",
+		"jade": "*"
+  }
+}

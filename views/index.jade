@@ -1,0 +1,13 @@
+extend layout
+
+block content
+	.container
+		h1 Hibrid HTML Test
+		hr.col-md-6
+		form.form.col-md-6(action="native", method="post")
+			.form-group
+				input.form-control#fNameTextField(type="text", name="first_name", placeholder="First Name here")
+			.form-group
+				input.form-control#lNameTextField(type="text", name="last_name", placeholder="Last Name here")
+			.form-group
+				button.btn.btn-default.col-md-12#updateNativeButton(type="submit", name="sendit") Update Native
